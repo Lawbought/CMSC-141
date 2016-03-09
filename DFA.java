@@ -150,6 +150,9 @@ public class DFA {
                 if (dfa.checkIfValidEnd(eBank)) {
                     writer.println("OK");
                 }
+                else{
+                    writer.println("NG");
+                }
             }
         }
         writer.close();
